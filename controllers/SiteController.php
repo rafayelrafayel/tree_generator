@@ -74,12 +74,6 @@ class SiteController extends Controller
                 $json_string = isset($post['json_string']) ? $post['json_string']
                         : '';
                 $json_array  = \yii\helpers\Json::decode($json_string);
-//                header('Content-Type:text/html; charset=utf-8');
-//                echo '<pre>';
-//
-//                print_r($json_array);
-//                echo '</pre>';
-//                die;
             }
         } catch (\Exception $exc) {
             $message = 'Invalid Json String';
