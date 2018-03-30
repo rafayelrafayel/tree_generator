@@ -38,21 +38,7 @@
 
 
         });
-        // _this.parents('ul:first').siblings('input:checkbox').prop('checked', !!(_this.closest('li').siblings().children('input:checked').length)).trigger('change');
+       
     }
-
-//    $.each($('#treeList ul li').find(':checkbox'), function () {
-//        $(this).change(function () {
-//            if ($(this).is(':checked')) {
-//                console.log($(this).parentsUntil('#treeList').siblings());
-//                $(this).parentsUntil('#treeList').siblings().filter('input:checkbox').attr('checked', true).trigger('change');
-//            } else {
-//         console.log($(this).parent().siblings());
-//                console.log($(this).parent().siblings().children('input:checked').length);
-//                $(this).parents('ul:first').siblings('input:checkbox').prop('checked', $(this).parent().siblings().children('input:checked').length).trigger('change');
-//            }
-//        });
-//    });
-
 
 })(jQuery);
